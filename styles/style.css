@@ -231,3 +231,24 @@
         margin-bottom: 20px;
     }
 }
+
+/* Media Query for medium Devices */
+
+@media screen and (min-width:576px) and (max-width:990px) {
+    .banner{
+        flex-direction: column;
+    }
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .resume-container{
+        margin: 20px;
+    }
+    .secondary-bg{
+        padding: 40px;
+    }
+    .footer-column{
+        margin-right: 50px;
+    }
+}
